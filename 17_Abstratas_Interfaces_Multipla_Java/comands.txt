@@ -1,0 +1,9 @@
+javac -classpath ../ RoboAbstrato.java RoboSimples.java RoboComplexo.java RoboComBateria.java 
+javac -classpath ../ DemoRobos.java
+java -classpath ../ Robos.DemoRobos
+
+javac -classpath ../ Ponto2D.java Shape2D.java Circle.java Rectangle.java DemoShape2D.java
+java -classpath ../ Shape2D.DemoShape2D
+
+javac -classpath ../ Scalavel.java CircleScalavel.java DemoCircleScalavel.java
+java -classpath ../ Shape2DHM.DemoCircleScalavel
